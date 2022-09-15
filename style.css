@@ -96,6 +96,21 @@ input[type='search']:focus{
     gap: 25px;
     overflow:hidden ;
 }
+
+.profile{
+    grid-area: 2/1/2/1;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    gap: 10px;
+    overflow: hidden;
+}
+h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+
 .content{
     grid-row: 2;
     grid-column: 2;
