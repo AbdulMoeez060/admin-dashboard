@@ -109,6 +109,25 @@ h2,p{
     margin: 0;
     padding: 0;
 }
+.buttons{
+    grid-area: 2/2/2/2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 35px;
+
+}
+
+.buttons > button{
+    background-color: #1992D4;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
 
 
 .content{
