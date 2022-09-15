@@ -163,7 +163,7 @@ input[type='search']:focus{
     padding-left: 20px;
     padding-top: 15px;
     overflow: hidden;
-    border-left: yellow 8px solid;
+    border-left: #9D91FF 8px solid;
     border-radius: 5px;
     position: relative;
     -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
