@@ -192,6 +192,7 @@ p{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    position: relative;
     -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
 	   -moz-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
 	        box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
@@ -216,13 +217,13 @@ p{
 }
 
 .trending{
-    grid-area: 2/2/2/2;
+    grid-area: 2/2/3/3;
 }
 .trending > .anons{
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    padding-left: 20px;
+    
 }
 
 .user{
@@ -230,4 +231,5 @@ p{
     align-items: center;
     justify-content: center;
     gap: 25px;
+    padding-left: 20px;
 }
